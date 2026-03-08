@@ -1,0 +1,52 @@
+<svg width="340" height="100" viewBox="0 0 340 100" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Define soft shadow -->
+  <defs>
+    <filter id="shadow">
+      <feDropShadow dx="1" dy="2" stdDeviation="2" flood-color="#ccc"></feDropShadow>
+    </filter>
+  </defs>
+
+  <!-- T -->
+  <text x="10" y="65" font-size="48" font-family="Comic Sans MS, cursive" fill="#ff9aa2" transform="rotate(-5 20 60)" filter="url(#shadow)">T</text>
+
+  <!-- Teddy replacing "o" -->
+  <g transform="translate(55,35) scale(0.9)">
+    <!-- Head -->
+    <circle cx="20" cy="25" r="18" fill="#d8a47f"></circle>
+    
+    <!-- Ears -->
+    <circle cx="7" cy="10" r="7" fill="#d8a47f"></circle>
+    <circle cx="33" cy="10" r="7" fill="#d8a47f"></circle>
+    
+    <!-- Inner ears -->
+    <circle cx="7" cy="10" r="4" fill="#f6c1a6"></circle>
+    <circle cx="33" cy="10" r="4" fill="#f6c1a6"></circle>
+    
+    <!-- Eyes -->
+    <circle cx="15" cy="25" r="2.5" fill="#333"></circle>
+    <circle cx="25" cy="25" r="2.5" fill="#333"></circle>
+    
+    <!-- Nose -->
+    <ellipse cx="20" cy="32" rx="4" ry="3" fill="#333"></ellipse>
+  </g>
+
+  <!-- y -->
+  <text x="110" y="65" font-size="48" font-family="Comic Sans MS, cursive" fill="#ffdac1" transform="rotate(4 110 60)" filter="url(#shadow)">y</text>
+
+  <!-- S -->
+  <text x="145" y="65" font-size="48" font-family="Comic Sans MS, cursive" fill="#b5ead7" transform="rotate(-3 145 60)" filter="url(#shadow)">S</text>
+
+  <!-- t -->
+  <text x="175" y="65" font-size="48" font-family="Comic Sans MS, cursive" fill="#c7ceea" transform="rotate(5 175 60)" filter="url(#shadow)">t</text>
+
+  <!-- o -->
+  <text x="200" y="65" font-size="48" font-family="Comic Sans MS, cursive" fill="#f3b0c3" transform="rotate(-4 200 60)" filter="url(#shadow)">o</text>
+
+  <!-- r -->
+  <text x="230" y="65" font-size="48" font-family="Comic Sans MS, cursive" fill="#a0e7e5" transform="rotate(3 230 60)" filter="url(#shadow)">r</text>
+
+  <!-- e -->
+  <text x="260" y="65" font-size="48" font-family="Comic Sans MS, cursive" fill="#ffc8dd" transform="rotate(-2 260 60)" filter="url(#shadow)">e</text>
+
+</svg>
