@@ -24,7 +24,7 @@ import Wishlist from "./pages/Wishlist";
 import SearchResults from "./pages/Search";
 import Login from "./pages/Login";
 import Footer from "./components/footer/Footer";
-import ScrollToTop from "./components/scroll/ScrollToTop";
+
 
 function App() {
 
@@ -38,7 +38,7 @@ function App() {
   <Navbar cart={cart}   wishlist={wishlist} products={products} />
   <div style={{ marginTop: "90px" }}>
   <Routes>
-<ScrollToTop />
+
       
 {/* HOME */}
   <Route path="/" element={
