@@ -55,7 +55,7 @@ function Navbar({ cart, wishlist, products }: NavbarProps) {
 
   return (
 
-    <nav className="navbar navbar-expand-lg fixed-top">
+    <nav className="navbar navbar-expand-md navbar-dark bg-danger fixed-top">
 
       <div className="container">
 
@@ -65,15 +65,17 @@ function Navbar({ cart, wishlist, products }: NavbarProps) {
         </Link>
 
 {/* Mobile Toggle */}
-        <button
-          className="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarContent"
-        >
-          <span className="navbar-toggler-icon"></span>
-        </button>
-
+       <button
+  className="navbar-toggler"
+  type="button"
+  data-bs-toggle="collapse"
+  data-bs-target="#navbarContent"
+  aria-controls="navbarContent"
+  aria-expanded="false"
+  aria-label="Toggle navigation"
+>
+  <span className="navbar-toggler-icon"></span>
+</button>
 <div className="collapse navbar-collapse" id="navbarContent">
 
 {/* CENTER MENU */}
@@ -94,7 +96,7 @@ function Navbar({ cart, wishlist, products }: NavbarProps) {
 {/* AGEWISE */}
 <li className="nav-item dropdown">
 
-<a className="nav-link dropdown-toggle text-white" href="#" role="button" data-bs-toggle="dropdown">
+<a className="nav-link dropdown-toggle text-white"  role="button" data-bs-toggle="dropdown">
 Age Wise
 </a>
 
