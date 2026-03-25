@@ -21,8 +21,8 @@ img{
 
 .logo-img {
   margin-left: 10px;
-  padding-left: 15px;
-  height: 50px;
+  padding-left: 5px;
+  height: 60px;
   width: auto;
 }
 .navbar {
@@ -398,8 +398,8 @@ img{
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
   gap: 30px;
-  max-width: 1200px;height: 150px;
-  margin: auto;
+  max-width: 1200px;height: auto;
+  margin: auto;padding: 20px 0;
 }
 
 .footer-section h3 {
@@ -830,14 +830,14 @@ box-shadow:0 10px 25px rgba(0,0,0,0.15);
 }
 .product-details{
 background:#fff3f3;
-border-radius:15px;padding-right:350px; 
+border-radius:15px;padding-right:20px; 
 }
 
 .product-detail-img{
 width:100%;
 height:300px;
 object-fit:contain;
-margin-bottom:15px;padding-left: 250px;border-radius: 10px;
+margin-bottom:15px;padding: 50px;border-radius: 10px;
 }
 
 .product-title{
@@ -1081,13 +1081,13 @@ padding:8px 15px;
 .bulk-section,
 .bulk-section h2,
 .bulk-section p {
-  text-align: left;margin: 20px;
+  text-align: left;margin: 10px;width: 100%;
 }
 
 /* LIST ALIGNMENT LIKE FIRST SCREENSHOT */
 .corporate-list {
   list-style: none;
-  padding-left: 250px;
+  padding-left: 40px;
   margin-top: 20px;
 }
 
@@ -1114,7 +1114,7 @@ padding:8px 15px;
 /* LIST STYLE LIKE PROFESSIONAL UI */
 .return-list {
   list-style: none;
-  padding-left: 200px;
+  padding-left: 20px;
   margin-top: 30px;
   
 }
